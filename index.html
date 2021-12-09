@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Random Quote Machin</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+<body>
+
+    <div id="quote-box">
+        <div id="quote-text">
+            <i class="fa fa-quote-left"> </i> <span id="text"></span>
+        </div>
+        
+        <div id="author"></div>
+        
+        <div id="quote-footer">
+            <div>
+                <a href="#"
+                    title="Tweet this quote!"
+                    target="_top" id="tweet-quote"
+                    class="btn-share-quote">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                
+                <a href="#"
+                    target="_top"
+                    id="thumblr-quote"
+                    class="btn-share-quote">
+                    <i class="fa fa-tumblr"></i>
+                </a>
+            </div>
+            
+            <button id="new-quote">New quote</button>
+        </div>
+    </div>
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+    <script src='app.js'></script>
+</body>
+</html>
